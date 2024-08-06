@@ -14,36 +14,38 @@ function NavBar() {
         </div>
 
         <div className="col-12 row p-0  down-header">
-          <div className="col-lg-2 col-md-4 col-sm-6 link-container d-flex justify-content-center align-items-center">
+          <div className="col-lg-2 col-md-4 col-6 link-container d-flex justify-content-center align-items-center">
             <a href="">Bollywood</a>
           </div>
-          <div className="col-lg-2 col-md-4 col-sm-6 link-container d-flex justify-content-center align-items-center">
+          <div className="col-lg-2 col-md-4 col-6 link-container d-flex justify-content-center align-items-center">
             <a href="">New</a>
           </div>
-          <div className="col-lg-2 col-md-4 col-sm-6 link-container d-flex justify-content-center align-items-center">
+          <div className="col-lg-2 col-md-4 col-6 link-container d-flex justify-content-center align-items-center">
             <a href="">Popular</a>
           </div>
-          <div className="col-lg-2 col-md-4 col-sm-6 link-container d-flex justify-content-center align-items-center">
+          <div className="col-lg-2 col-md-4 col-6 link-container d-flex justify-content-center align-items-center">
             <a href="">Punjabi</a>
           </div>
-          <div className="col-lg-2 col-md-4 col-sm-6 link-container d-flex justify-content-center align-items-center">
+          <div className="col-lg-2 col-md-4 col-6 link-container d-flex justify-content-center align-items-center">
             <a href="">Artist</a>
           </div>
-          <div className="col-lg-2 col-md-4 col-sm-6 link-container d-flex justify-content-center align-items-center">
+          <div className="col-lg-2 col-md-4 col-6 link-container d-flex justify-content-center align-items-center">
             <a href="">Devotional</a>
           </div>
         </div>
 
-        <div className="col-12 col-md-6 d-flex align-items-center justify-content-center search-box-container">
-          <input
+        <div className="col-md-6 flex-column flex-md-row text-center d-flex align-items-center justify-content-center search-box-container">
+           <div className="col-md-6 col-12 ">
+           <input
             type="text"
             placeholder="Search here..."
             name="search"
             className="search-box"
           />
           <button className="search-btn">Search</button>
+           </div>
 
-          <div className="dropdown ms-5 ">
+          <div className="ms-md-3 mt-2 mt-md-0 col-md-6 col-12 ">
           <a
             className="btn btn-secondary dropdown-toggle"
             href="#"
