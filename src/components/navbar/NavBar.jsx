@@ -7,7 +7,7 @@ function NavBar() {
         <div className="col-12 text-center align-items-center top-header">
           <img
             className="logo d-inline-block pb-3"
-            src="/Images/logo.jpg"
+            src="/assets/images/logo.jpg"
             alt="logo"
           />
           <h1 className="d-inline-block title fs-1 ps-3 pt-1">Zaroori</h1>
