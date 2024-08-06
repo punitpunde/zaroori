@@ -1,0 +1,47 @@
+@import url('https://fonts.googleapis.com/css2?family=Kaushan+Script&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+.top-header{
+    background-color: #323232;
+    height: 60px;
+}
+.logo{
+    width: 50px;
+    border-radius: 50%;
+}
+
+.title{
+    color: rgba(255, 255, 255, 0.8);
+    font-family: "Kaushan Script", cursive;
+}
+
+.down-header{
+    background-color: #384147;
+    min-height: 7vh;
+    padding: 0;
+}
+.down-header .link-container a{
+    text-decoration: none;
+    color: rgba(255, 255, 255, 1);
+}
+
+.down-header .link-container{
+    border-right: 0.1px solid rgba(255, 255, 255, 0.3);
+    border-top: 0.1px solid rgba(255, 255, 255, 0.3);
+    height: 40px;
+    margin-left: 0;
+}
+
+.search-box-container{
+    padding: 1rem;
+    max-height: fit-content;
+}
+
+.search-box{
+    border-radius: 0;
+}
+
+.search-btn{
+    background: #db0707;
+    color: #fff;
+    border: 2px solid #db0707;
+    border-radius: 0;
+}
