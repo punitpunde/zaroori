@@ -3,12 +3,10 @@ import { useSelector } from "react-redux";
 import { Outlet, useParams } from "react-router-dom";
 import MovieContent from "../components/movie/MoviePoster";
 import MovieSong from "../components/movie/MovieSong";
-import MoreSongs from "../components/movie/MoreSongs";
+import MoreSongs from "../components/common/MoreSongs";
 import Strip from "../components/extra/Strip";
 
 function Movie() {
-  console.log("I am hare");
-  
   const {movieName } = useParams();
   const { moviesData } = useSelector((state) => {
     return state.moviesState;

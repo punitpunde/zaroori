@@ -108,7 +108,8 @@ const moviesData = [
                 songImgPath:"/assets/images/Tujhe Kitna Chahein Aur - Kabir Singh (2019).jpg",
                 singers:"Arijit Singh, Shreya Ghosal",
                 movieName:"Kabir Singh (2019)",
-                songPath:"/assets/audio/Tujhe Kitna Chahein Aur - Kabir Singh (2019).mp3"
+                songPath:"/assets/audio/Tujhe Kitna Chahein Aur - Kabir Singh (2019).mp3",
+                
             },
             {
                 song:"Kaise Hua",

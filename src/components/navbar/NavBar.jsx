@@ -1,5 +1,6 @@
 import React from "react";
 import "./nav_bar.css";
+import { Link } from "react-router-dom";
 function NavBar() {
   return (
     <div className="container header-container">
@@ -27,15 +28,15 @@ function NavBar() {
             <a href="">Punjabi</a>
           </div>
           <div className="col-lg-2 col-md-4 col-6 link-container d-flex justify-content-center align-items-center">
-            <a href="">Artist</a>
+            <Link to={'artists'}>Artists</Link>
           </div>
           <div className="col-lg-2 col-md-4 col-6 link-container d-flex justify-content-center align-items-center">
             <a href="">Devotional</a>
           </div>
         </div>
 
-        <div className="col-md-6 flex-column flex-md-row text-center d-flex align-items-center justify-content-center search-box-container">
-           <div className="col-md-6 col-12 ">
+        <div className=" row text-center align-items-center justify-content-center search-box-container">
+           <div className="col-md-6 col-12 text-md-end">
            <input
             type="text"
             placeholder="Search here..."
@@ -45,7 +46,7 @@ function NavBar() {
           <button className="search-btn">Search</button>
            </div>
 
-          <div className="ms-md-3 mt-2 mt-md-0 col-md-6 col-12 ">
+          <div className="col-12 col-md-6 text-md-start mt-3 mt-md-0">
           <a
             className="btn btn-secondary dropdown-toggle"
             href="#"
