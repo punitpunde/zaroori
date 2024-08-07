@@ -1,0 +1,7 @@
+.artist{
+    list-style: circle;
+    color: rgb(12, 11, 11);
+    font-weight: 500;
+    font-size: small;
+    cursor: pointer;
+}
